@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair Pack UMA Material
+  m_Shader: {fileID: 4800000, guid: 3eed4732656879043a425298da909c90, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisoDir:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AnisoTex:
+        m_Texture: {fileID: 2800000, guid: 4810803320cc4704ba636a7ad86b9ccf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AnisotropyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 6cd24f1e0f00c3242a7b7af3b8a1d3b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a2976f14c6db8f04cbc5cbbe2ff4b03f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: ca46ba4b24f892d408a1b50efffa0705, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 2800000, guid: 8e003c062b443aa40abdbc62fef97815, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentDir:
+        m_Texture: {fileID: 2800000, guid: 395774a457a5bf443bdbb9ebca220b4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnisoOffset: 0.211
+    - _Anisotropy: 1
+    - _BumpScale: 1
+    - _BumpStrength: 0.5
+    - _Cutoff: 7
+    - _DetailNormalMapScale: 1
+    - _DiffuseScatteringBias: 0.063
+    - _DiffuseScatteringContraction: 10
+    - _Distortion: 1.56
+    - _DstBlend: 10
+    - _EnableDitheredOpacity: 0
+    - _EnableMetallGlossMap: 0
+    - _FadeFactor: 2
+    - _Fresnel: 2.4
+    - _FresnelDamp: 1
+    - _Gloss: 5
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _MaskClipValue: 0.35
+    - _Metallic: 0.699
+    - _MetallicAdd: 0
+    - _MetallicStrength: 0.783
+    - _Mode: 3
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Power: 0.98
+    - _PrimaryShift: 0.5
+    - _Scale: 1.47
+    - _SecondaryShift: 0.7
+    - _Shininess: 0.078125
+    - _SmoothnessAdd: 0
+    - _SmoothnessStrength: 0.516
+    - _SmoothnessTextureChannel: 0
+    - _SpecPower: 0.5
+    - _Specular: 0.5
+    - _SpecularHighlights: 1
+    - _SpecularMultiplier: 1
+    - _SpecularMultiplier2: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _TangentDirStrength: 0.687
+    - _Translucency: 0
+    - _UVSec: 0
+    - _VertexOcclusionStrength: 0
+    - _ZWrite: 0
+    - __dirty: 1
+    m_Colors:
+    - _BaseTangentDir: {r: 0, g: 1, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseScatteringCol: {r: 0.6838235, g: 0.6838235, b: 0.6838235, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.7924528, g: 0.70305234, b: 0.57938766, a: 1}
+    - _SpecularColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
